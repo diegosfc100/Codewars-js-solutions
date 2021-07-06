@@ -1,0 +1,14 @@
+/* Simple, remove the spaces from the string, then return the resultant string.
+ */
+
+function noSpace(x){
+    return x.replace(/\s/g, '')
+  }
+
+
+//Alternative
+const noSpace = x => x.replace(/ /g, "");
+
+
+//Alternative
+function noSpace(x){return x.split(' ').join('')}
